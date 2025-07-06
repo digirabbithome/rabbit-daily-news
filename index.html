@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>小兔每日情報</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body class="bg-pink-50 flex">
+  <aside class="w-64 p-4 bg-pink-200 min-h-screen flex flex-col gap-3">
+    <button class="sidebar-btn">📋 每日工作</button>
+    <button class="sidebar-btn">📅 工作進度</button>
+    <button class="sidebar-btn">✉️ 列印信封</button>
+    <button class="sidebar-btn">👤 新增帳號</button>
+    <button class="sidebar-btn">👥 會員管理</button>
+    <button class="sidebar-btn">🚪 登出</button>
+  </aside>
+  <main class="flex-1 p-6">
+    <h2 class="text-xl font-bold mb-4">小兔每日情報 ✨</h2>
+    <div id="news-list">
+      <!-- 將自動填入每日新聞 -->
+    </div>
+    <button id="generate" class="generate-btn">產出今日貼文</button>
+  </main>
+</body>
+</html>
