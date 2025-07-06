@@ -2,26 +2,18 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>小兔每日情報</title>
   <link rel="stylesheet" href="css/style.css" />
-  <script src="js/main.js" defer></script>
 </head>
-<body class="bg-pink-50 flex">
-  <aside class="w-64 p-4 bg-pink-200 min-h-screen flex flex-col gap-3">
-    <button class="sidebar-btn">📋 每日工作</button>
-    <button class="sidebar-btn">📅 工作進度</button>
-    <button class="sidebar-btn">✉️ 列印信封</button>
-    <button class="sidebar-btn">👤 新增帳號</button>
-    <button class="sidebar-btn">👥 會員管理</button>
-    <button class="sidebar-btn">🚪 登出</button>
-  </aside>
-  <main class="flex-1 p-6">
-    <h2 class="text-xl font-bold mb-4">小兔每日情報 ✨</h2>
-    <div id="news-list">
-      <!-- 將自動填入每日新聞 -->
-    </div>
-    <button id="generate" class="generate-btn">產出今日貼文</button>
-  </main>
+<body>
+  <div class="news-card">
+    <img src="https://placehold.co/600x400" alt="news image" />
+    <h2>📸 新款全幅相機登場</h2>
+    <p class="news-summary">
+      Sony 發表了新一代全幅無反相機 Alpha Z1，搭載全新 AI 對焦技術與 8K 錄影支援。這款機身專為專業影像創作者設計，
+      不僅機身更輕，還具備強大的低光性能，預計八月在台上市。
+    </p>
+  </div>
 </body>
 </html>

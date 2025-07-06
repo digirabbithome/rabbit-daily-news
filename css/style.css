@@ -2,28 +2,18 @@
 body {
   font-family: "Noto Sans TC", sans-serif;
   background-color: #ffeef2;
+  padding: 2rem;
 }
-.sidebar-btn {
-  background-color: white;
-  padding: 0.75rem 1rem;
-  border-radius: 1rem;
-  text-align: left;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  margin-bottom: 0.5rem;
-  transition: background 0.2s;
-}
-.sidebar-btn:hover {
-  background-color: #f9dbe8;
-}
-.generate-btn {
-  margin-top: 1.5rem;
-  padding: 0.75rem 2rem;
-  background-color: #f9a8d4;
-  color: white;
+.news-card {
+  background: white;
   border-radius: 1rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  transition: background 0.2s;
+  padding: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
 }
-.generate-btn:hover {
-  background-color: #f472b6;
+.news-summary {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
 }
