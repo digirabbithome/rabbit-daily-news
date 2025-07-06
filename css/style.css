@@ -4,13 +4,22 @@ body {
   background-color: #ffeef2;
   padding: 2rem;
 }
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
 .news-card {
   background: white;
   border-radius: 1rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   padding: 1rem;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 1rem auto;
+}
+.news-card img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .news-summary {
   font-size: 0.95rem;
